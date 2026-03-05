@@ -1,2 +1,8 @@
-# PoC_Bitchat1.15.0_iOS-BLEcache-poisoning
-PoC of BLE cache poisoning attack 
+PoC of BLE cache poisoning attack in Bitchat 1.15.0
+
+Requirements: 
+bleak, pynacl
+
+Usage: 
+python3 barghest.py --scan
+python3 barghest.py --target <MAC>
